@@ -24,5 +24,3 @@ print("introduce가 비어있습니까? \(introduce.isEmpty)")  //introduce가 �
 //유니코드의 스칼라값을 사용하면 값에 해당하는 표현이 출력됨
 let unicodeScalarValue: String = "\u{2665}"
 print(unicodeScalarValue)  //♥
-
-
