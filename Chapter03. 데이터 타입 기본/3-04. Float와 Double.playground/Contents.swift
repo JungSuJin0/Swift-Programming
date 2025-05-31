@@ -6,7 +6,6 @@ var floatValue: Float = 1234567890.1
 
 //Double은 충분히 수용 가능
 let doubleValue: Double = 1234567890.1
-
 print("floatValue: \(floatValue), doubleValue: \(doubleValue)")  //floatValue: 1.234568e+09, doubleValue: 1234567890.1
 
 //Float가 수용할 수 있는 범위의 수로 변경
