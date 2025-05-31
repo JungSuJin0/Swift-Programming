@@ -14,7 +14,6 @@ introduce.append("제 이름은")
 introduce = introduce + " " + name + " " + "입니다."
 print(introduce)  //제 이름은 SU JIN 입니다.
 
-
 //name에 해당하는 문자의 수를 셀 수 있음
 print("name의 글자 수: \(name.count)")  //name의 글자 수: 6
 
