@@ -1,6 +1,6 @@
 import UIKit
 
-//Float이 수용할 수 있는 범위를 넘어섬
+//Float이 수용할 수 있는 범위를 초과함
 //자신이 감당할 수 있는 만큼만 남기므로 정확도가 떨어짐
 var floatValue: Float = 1234567890.1
 
