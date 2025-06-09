@@ -4,7 +4,7 @@ let stringValue: String = "Liam Neeson"
 
 switch stringValue {
 case "yagom":
-    print("He is yaogom")
+    print("He is yagom")
 case "Jay":
     print("He is Jay")
 case "Jenny", "Joker", "Nova":
