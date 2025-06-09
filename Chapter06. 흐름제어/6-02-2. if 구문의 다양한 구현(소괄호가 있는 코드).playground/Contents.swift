@@ -11,7 +11,7 @@ if (first > second) {  //조건 수식을 소괄호로 묶어주는 것은 선�
 } else if (first < second) {
     biggerValue = second
 } else if (first == 5) {
-    //조건을 충족하더라도 이미 first == second라는 조건을 충족해 위에서 실행됨
+    //조건을 충족하더라도 이미 first == second라는 조건이 위에서 충족해 실행됨
     //따라서 실행되지 않음
     biggerValue = 100
 }
