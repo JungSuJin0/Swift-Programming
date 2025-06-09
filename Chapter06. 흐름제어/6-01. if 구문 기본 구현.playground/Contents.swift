@@ -7,7 +7,7 @@ if first > second {
     print("first > second")
 } else if first < second {
     print("first < second")
-} else {
+} else {  //else 블록은 없어도 상관없음
     print("first == second")
 }
 
