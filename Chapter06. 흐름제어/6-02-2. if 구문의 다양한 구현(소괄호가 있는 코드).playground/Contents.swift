@@ -17,4 +17,4 @@ if (first > second) {  //조건 수식을 소괄호로 묶어주는 것은 선�
 }
 //마지막 else는 생략이 가능함, 물론 else if도 생략 가능함
 //즉, else나 else if 없이 if만 단독으로 사용할 수도 있음
-print(biggerValue) //5
+print(biggerValue)  //5
