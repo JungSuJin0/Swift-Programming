@@ -6,8 +6,7 @@ enum School {
 
 let 최종학력: School = School.university
 
-switch 최종학력 {
-    
+switch 최종학력 { 
 case .primary:
     print("최종학력은 유치원입니다.")
 case .elementary:
@@ -21,3 +20,5 @@ case .college, .university:
 case .graduate:
     print("최종학력은 대학원입니다.")
 }
+
+//최종학력은 대학원입니다.
