@@ -11,4 +11,4 @@ if first > second {
     print("first == second")
 }
 
-//결과는 "first < second"가 출력
+//"first < second" 출력
