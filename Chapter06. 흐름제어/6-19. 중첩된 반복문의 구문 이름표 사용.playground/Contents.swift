@@ -29,3 +29,4 @@ numbersLoop: for num in numbers {
 //3
 //3
 //3
+//numbers에는 [2342, 6, 3252]가 남음
