@@ -2,7 +2,7 @@ import UIKit
 
 //연산자를 통한 문자열 결합
 let hello: String = "Hello"
-let SUJIN: String = "SU JIN"
+let SUJIN: String = "Su Jin"
 var greeting: String = hello + " " + SUJIN + "!"
 print(greeting)  //Hello SU JIN!
 
@@ -23,7 +23,7 @@ print(isSameString)  //true
 isSameString = hello == "hello"
 print(isSameString)  //false
 
-isSameString = SUJIN == "SU JIN"
+isSameString = SUJIN == "Su Jin"
 print(isSameString)  //true
 
 isSameString = SUJIN == hello
@@ -41,7 +41,7 @@ print(hasPrefix)  //false
 hasPrefix = greeting.hasPrefix("Hello ")
 print(hasPrefix)  //true
                                
-hasPrefix = SUJIN.hasPrefix("JIN")
+hasPrefix = SUJIN.hasPrefix("Jin")
 print(hasPrefix)  //false
 
 hasPrefix = hello.hasPrefix("Hello")
@@ -57,13 +57,13 @@ print(hasSuffix)  //true
 hasSuffix = hello.hasSuffix("He")
 print(hasSuffix)  //false
 
-hasSuffix = greeting.hasSuffix("SU JIN")
+hasSuffix = greeting.hasSuffix("Su Jin")
 print(hasSuffix)  //flase
 
-hasSuffix = greeting.hasSuffix("SU JIN!")
+hasSuffix = greeting.hasSuffix("Su Jin!")
 print(hasSuffix)  //true
 
-hasSuffix = SUJIN.hasSuffix("JIN")
+hasSuffix = SUJIN.hasSuffix("Jin")
 print(hasSuffix)  //true
 
 
