@@ -2,7 +2,7 @@ import UIKit
 
 var name: String = "수진"
 var age: Int = 100
-var job = "iOS programmer"  //타입 추론이 사용
+var job = "iOS programmer"  //타입 추론 사용
 var height =  156
 print("\(type(of: height))")  //Int
 age = 24  //변수는 값을 변경해줄 수 있음
