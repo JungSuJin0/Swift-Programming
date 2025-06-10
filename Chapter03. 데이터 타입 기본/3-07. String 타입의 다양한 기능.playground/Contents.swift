@@ -2,16 +2,16 @@ import UIKit
 
 //연산자를 통한 문자열 결합
 let hello: String = "Hello"
-let SUJIN: String = "Su Jin"
-var greeting: String = hello + " " + SUJIN + "!"
-print(greeting)  //Hello SU JIN!
+let sujin: String = "SuJin"
+var greeting: String = hello + " " + sujin + "!"
+print(greeting)  //Hello SuJin!
 
 
 greeting = hello
 greeting += " "
-greeting += SUJIN
+greeting += sujin
 greeting += "!"
-print(greeting)  //Hello Su Jin!
+print(greeting)  //Hello SuJin!
 
 
 //연산자를 통한 문자열 비교
@@ -23,7 +23,7 @@ print(isSameString)  //true
 isSameString = hello == "hello"
 print(isSameString)  //false
 
-isSameString = SUJIN == "Su Jin"
+isSameString = SUJIN == "SuJin"
 print(isSameString)  //true
 
 isSameString = SUJIN == hello
@@ -57,10 +57,10 @@ print(hasSuffix)  //true
 hasSuffix = hello.hasSuffix("He")
 print(hasSuffix)  //false
 
-hasSuffix = greeting.hasSuffix("Su Jin")
+hasSuffix = greeting.hasSuffix("SuJin")
 print(hasSuffix)  //flase
 
-hasSuffix = greeting.hasSuffix("Su Jin!")
+hasSuffix = greeting.hasSuffix("SuJin!")
 print(hasSuffix)  //true
 
 hasSuffix = SUJIN.hasSuffix("Jin")
@@ -76,13 +76,13 @@ convertedString = hello.lowercased()
 print(convertedString)  //hello
 
 convertedString = SUJIN.uppercased()
-print(convertedString)  //SU JIN
+print(convertedString)  //SUJIN
 
 convertedString = greeting.uppercased()
-print(convertedString)  //HELLO SU JIN!
+print(convertedString)  //HELLO SUJIN!
 
 convertedString = greeting.lowercased()
-print(convertedString)  //hello su jin!
+print(convertedString)  //hello sujin!
 
 
 //프로퍼티를 통한 빈 문자열 확인
