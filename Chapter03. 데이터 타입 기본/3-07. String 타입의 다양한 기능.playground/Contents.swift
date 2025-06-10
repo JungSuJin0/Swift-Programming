@@ -11,7 +11,7 @@ greeting = hello
 greeting += " "
 greeting += SUJIN
 greeting += "!"
-print(greeting)  //Hello SU JIN!
+print(greeting)  //Hello Su Jin!
 
 
 //연산자를 통한 문자열 비교
