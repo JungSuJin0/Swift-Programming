@@ -23,10 +23,10 @@ print(isSameString)  //true
 isSameString = hello == "hello"
 print(isSameString)  //false
 
-isSameString = SUJIN == "SuJin"
+isSameString = sujin == "SuJin"
 print(isSameString)  //true
 
-isSameString = SUJIN == hello
+isSameString = sujin == hello
 print(isSameString)  //false
 
 
@@ -41,7 +41,7 @@ print(hasPrefix)  //false
 hasPrefix = greeting.hasPrefix("Hello ")
 print(hasPrefix)  //true
                                
-hasPrefix = SUJIN.hasPrefix("Jin")
+hasPrefix = sujin.hasPrefix("Jin")
 print(hasPrefix)  //false
 
 hasPrefix = hello.hasPrefix("Hello")
@@ -63,7 +63,7 @@ print(hasSuffix)  //flase
 hasSuffix = greeting.hasSuffix("SuJin!")
 print(hasSuffix)  //true
 
-hasSuffix = SUJIN.hasSuffix("Jin")
+hasSuffix = sujin.hasSuffix("Jin")
 print(hasSuffix)  //true
 
 
@@ -75,7 +75,7 @@ print(convertedString)  //HELLO
 convertedString = hello.lowercased()
 print(convertedString)  //hello
 
-convertedString = SUJIN.uppercased()
+convertedString = sujin.uppercased()
 print(convertedString)  //SUJIN
 
 convertedString = greeting.uppercased()
